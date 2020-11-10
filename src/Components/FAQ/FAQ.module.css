@@ -1,0 +1,18 @@
+.background {
+    background: purple;
+    height: 600px;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        border: solid red 1px;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+}

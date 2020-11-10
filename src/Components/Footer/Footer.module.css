@@ -1,0 +1,45 @@
+.background {
+    height: 300px;
+    position: relative;
+}
+
+.container {
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.logoContainer {
+    justify-self: end;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.p1 {
+    align-self: end;
+    margin: 0;
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+}
+
+.p2 {
+    align-self: end;
+    justify-self: end;
+    margin: 0;
+    font-size: 12px;
+    color: rgb(107, 107, 107);
+
+}

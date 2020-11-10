@@ -1,0 +1,33 @@
+
+
+.headerMenu {
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -415px;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+
+.menuBar {
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.logo {
+    height: 40px;
+}

@@ -1,0 +1,54 @@
+.background {
+    background: purple;
+    height: 600px;
+    margin-top: 360px;
+    display: grid;
+    place-items: center;
+}
+
+
+.container {
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 70fr 30fr;
+    grid-template-rows: 10fr 90fr;
+    position: relative;
+}
+
+
+.video {
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    grid-column: span 2;
+}
+
+
+
+.thumbnail {
+    border-radius: 5px;
+    height: 100%;
+}
+
+.carousel {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    grid-gap: 14px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+}
