@@ -1,6 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import BootstrapCarousel from './Components/Carousel/BootstrapCarousel'
+import HeaderCarousel from './Components/HeaderCarousel/HeaderCarousel'
 import HeaderMenu from './Components/HeaderMenu/HeaderMenu'
 import Categories from './Components/Categories/Categories'
 import Video from './Components/Video/Video'
@@ -11,7 +10,7 @@ import Footer from './Components/Footer/Footer'
 function App() {
   return (
     <div className="App">
-      <BootstrapCarousel />
+      <HeaderCarousel />
       <HeaderMenu />
       <Categories />
       <Video />

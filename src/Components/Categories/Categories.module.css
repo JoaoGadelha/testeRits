@@ -17,6 +17,7 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .background {
@@ -44,3 +45,14 @@
     align-items: center;
     font-size: 14px;
 }
+
+.headLine {
+    font-size: 20px;
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 20px;
+}
+
+
+
