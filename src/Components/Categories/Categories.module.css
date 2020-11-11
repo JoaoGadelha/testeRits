@@ -29,7 +29,7 @@
     margin: 0;
     display: grid;
     align-items: end;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(218, 202, 202, 0.1);
     font-weight: bold;
     width: 250px;
     margin: 0 auto;
@@ -47,12 +47,37 @@
 }
 
 .headLine {
-    font-size: 20px;
+    font-size: 14px;
     position: absolute;
-    width: 300px;
-    top: 100px;
-    left: 20px;
+    width: 250px;
+    top: 120px;
+    left: 25px;
+    color: white;
+    z-index: 100;
 }
 
+.overlay {
+    width: 300px;
+    height: 170px;
+    background: linear-gradient(rgba(0,0,0,0),black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
 
+.item:hover .overlay {
+    background: linear-gradient(rgba(0,0,0,0.5),black);
+    transition: all ease 0.6s;
+}
 
+.item:hover .headLine {
+    color: #A7BD25;
+    transition: all ease 0.6s;
+}
+
+.item:hover .h1 {
+    border-top: solid #A7BD25 1px;
+    color: #A7BD25;
+    transition: all ease 0.6s;
+}
