@@ -71,3 +71,13 @@
     color: #4EEF61;
     margin-top: 10px;
 }
+
+@media (max-width:800px) {
+    .text {
+        width: 300px;
+    }
+
+    .title {
+        width: 300px;
+    }
+}

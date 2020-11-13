@@ -42,3 +42,34 @@
     font-size: 12px;
     color: rgb(107, 107, 107);
 }
+
+@media (max-width: 800px) {
+    .background {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .container {
+        width: 400px;
+        margin: 0 auto;
+        position: static;
+        margin-top: 50px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        place-items: center;
+    }
+    .p2 {
+        display: none;
+    }
+    .logoContainer {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 300px;
+    }
+}

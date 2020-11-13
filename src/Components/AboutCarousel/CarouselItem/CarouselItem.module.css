@@ -8,7 +8,7 @@
     text-align: left;
     width: 350px;
     height: 228px;
-    background: linear-gradient(#0BD8C0,#4EEF61);
+    background: linear-gradient(#0BD8C0, #4EEF61);
     color: white;
     border-radius: 5px;
     font-size: 28px;
@@ -50,4 +50,41 @@
     top: 114px;
     left: 30px;
     text-align: left;
+}
+
+@media (max-width: 800px) {
+    .item:nth-child(4),
+     .item:nth-child(5),
+      .item:nth-child(6),
+       .item:nth-child(7),
+        .item:nth-child(8),
+         .item:nth-child(9),
+          .item:nth-child(10),
+           .item:nth-child(11),
+            .item:nth-child(12) {
+        display: none;
+    }
+    .content {
+        width: 300px;
+        height: 250px;
+    }
+    .numberContainer {
+        width: 100px;
+    }
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+.item {
+    width: 300px;
+    
+}   
+
+.numberContainer {
+    display: none;
+}
+
+
 }

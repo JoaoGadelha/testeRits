@@ -1,0 +1,50 @@
+.container {
+    position: relative;
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 100px;
+    border: solid rgba(0,0,0,0) 3px;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.thumbnail:nth-child(1) {
+    border: solid white 3px;
+}
+
+.image {
+    width: 100%;
+}
+
+.pointer {
+    width:0;
+    height:0;
+    border:solid white 10px;
+    border-left: solid rgba(0,0,0,0) 10px;
+    border-top: solid rgba(0,0,0,0) 10px;
+    border-bottom: solid rgba(0,0,0,0) 10px;
+    position: absolute;
+    top: 34px;
+    left: -19px;
+}
+
+@media (max-width:800px){
+    .pointer {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .image {
+        width: 70px;
+        height: 50px;
+    }
+    .thumbnail {
+        width: 70px;
+        height: auto;
+    }
+}

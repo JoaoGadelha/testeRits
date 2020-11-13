@@ -35,6 +35,7 @@
     margin: 0 auto;
     margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
 }
 
 .p {
@@ -59,7 +60,7 @@
 .overlay {
     width: 300px;
     height: 170px;
-    background: linear-gradient(rgba(0,0,0,0),black);
+    background: linear-gradient(rgba(0, 0, 0, 0), black);
     position: absolute;
     top: 0;
     left: 0;
@@ -67,7 +68,7 @@
 }
 
 .item:hover .overlay {
-    background: linear-gradient(rgba(0,0,0,0.5),black);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), black);
     transition: all ease 0.6s;
 }
 
@@ -77,7 +78,83 @@
 }
 
 .item:hover .h1 {
-    border-top: solid #A7BD25 1px;
+    border-top: solid #A7BD25 2px;
     color: #A7BD25;
     transition: all ease 0.6s;
+}
+
+.rightSide {
+    margin-top: 30px;
+}
+
+
+@media (max-width:800px) {
+
+    .categories {
+        display: block;
+        margin: 0 auto;
+        position: static;
+        margin-left: 50px;
+        margin: 30px 40px;
+        border: none;
+        width: 300px;
+    }
+
+
+    .background {
+        width: 250px;
+        height: 180px;
+    }
+    .rightSide {
+        width: 200px;
+        height: 150px;
+    }
+
+    .p, .headLine {
+        width: 80%;
+    }
+
+    .h1 {
+        display: none;
+    }
+
+    .headLine {
+        width: 200px;
+    }
+
+    .item {
+        display: flex;
+        width: 450px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .overlay {
+        width: 250px;
+        height: 180px;
+    }
+
+}
+
+
+@media (max-width:500px) { 
+
+    .categories {
+        width: 300px;
+    }
+
+    .item {
+        width: 300px;
+    }
+    
+    .h1, .p {
+        display: none;
+    }
+
+    .background {
+        width: 300px;
+    }
+
+    .overlay {
+        width: 300px;
+    }
 }

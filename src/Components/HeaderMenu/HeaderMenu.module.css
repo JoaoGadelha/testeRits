@@ -1,5 +1,3 @@
-
-
 .headerMenu {
     width: 830px;
     display: flex;
@@ -10,9 +8,8 @@
     top: 0;
     left: 50%;
     margin-left: -415px;
-    border-bottom: 2px solid rgba(255,255,255,0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
-
 
 .menuBar {
     width: 300px;
@@ -30,4 +27,38 @@
 
 .logo {
     height: 40px;
+}
+
+@media (max-width: 800px) {
+    .headerMenu {
+        width: 400px;
+        left: 480px;
+        border-bottom: none;
+    }
+    .logo {
+        height: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+.headerMenu {
+    border-bottom: none;
+}
+
+    .menuBar {
+        display: none;
+    }
+
+    .logo {
+        position: relative;
+        left: 100px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .headerMenu {
+        width: 250px;
+    }
 }
