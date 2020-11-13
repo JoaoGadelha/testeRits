@@ -1,18 +1,31 @@
 .background {
-    background: purple;
-    height: 600px;
-    position: relative;
+    background: #2E2236;
+    color: white;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-        border: solid red 1px;
-    height: 300px;
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px;
-    margin-left: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1 {
+    margin-right: 20px;
+    width: 370px;
+    height: 118px;
+    font-size: 48px;
+    align-self: flex-start;
+    letter-spacing: -0.48px;
+}
+
+.accordionContainer {
+    width: 770px;
+    max-height: 650px;
+    overflow: auto;
+    border-radius: 6px;
 }

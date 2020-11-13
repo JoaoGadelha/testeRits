@@ -1,5 +1,53 @@
 .item {
-    height: 100px;
-    width: 100px;
-    background: red;
+    height: 288px;
+    width: 370px;
+    position: relative;
+}
+
+.numberContainer {
+    text-align: left;
+    width: 350px;
+    height: 228px;
+    background: linear-gradient(#0BD8C0,#4EEF61);
+    color: white;
+    border-radius: 5px;
+    font-size: 28px;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.content {
+    height: 288px;
+    width: 313px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    background: white;
+    box-shadow: 0 15px 30px #0000001A;
+    border-radius: 5px;
+    display: grid;
+}
+
+.image {
+    width: 60px;
+    height: 44px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.text {
+    width: 253px;
+    height: 124px;
+    font-size: 32px;
+    position: absolute;
+    top: 114px;
+    left: 30px;
+    text-align: left;
 }

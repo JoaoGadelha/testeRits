@@ -1,5 +1,146 @@
+
+
+@font-face {
+  font-family: "muli";
+  src: url("./muli/Muli-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'muli'
 }
+
+:root {
+
+  /* Colors: */
+  --unnamed-color-003576: #003576;
+  --unnamed-color-a7bd25: #A7BD25;
+  --unnamed-color-0b1b2f00: #0B1B2F;
+  
+  /* Font/text values */
+  --unnamed-font-family-muli: Muli;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-300: 300px;
+  --unnamed-font-weight-800: 800px;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-12: 12px;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-28: 28px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-font-size-36: 36px;
+  --unnamed-font-size-48: 48px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing-1-4: 1.4px;
+  --unnamed-character-spacing-1-6: 1.6px;
+  --unnamed-character-spacing--0-28: -0.28px;
+  --unnamed-character-spacing--0-36: -0.36px;
+  --unnamed-character-spacing--0-48: -0.48px;
+  --unnamed-character-spacing--0-32: -0.32px;
+  --unnamed-line-spacing-20: 20px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-38: 38px;
+  --unnamed-line-spacing-42: 42px;
+  --unnamed-line-spacing-46: 46px;
+  --unnamed-line-spacing-58: 58px;
+  --unnamed-text-transform-uppercase: uppercase;
+  }
+  
+  /* Character Styles */
+  .unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-12);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-747474);
+  }
+  .unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-300);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-42);
+  letter-spacing: var(--unnamed-character-spacing--0-32);
+  color: var(--unnamed-color-3b3b3b);
+  }
+  .unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-28);
+  line-height: var(--unnamed-line-spacing-38);
+  letter-spacing: var(--unnamed-character-spacing--0-28);
+  color: var(--unnamed-color-31268a);
+  }
+  .unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-1-6);
+  color: var(--unnamed-color-ffffff);
+  text-transform: var(--unnamed-text-transform-uppercase);
+  }
+  .unnamed-character-style-5 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-20);
+  letter-spacing: var(--unnamed-character-spacing-1-4);
+  color: var(--unnamed-color-b3becb);
+  text-transform: var(--unnamed-text-transform-uppercase);
+  }
+  .unnamed-character-style-6 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-36);
+  line-height: var(--unnamed-line-spacing-46);
+  letter-spacing: var(--unnamed-character-spacing--0-36);
+  color: var(--unnamed-color-3b3b3b);
+  }
+  .unnamed-character-style-7 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-48);
+  line-height: var(--unnamed-line-spacing-58);
+  letter-spacing: var(--unnamed-character-spacing--0-48);
+  color: var(--unnamed-color-003576);
+  }
+  .unnamed-character-style-8 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2a2e31);
+  }
+  .unnamed-character-style-9 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-3b3b3b);
+  }
+  .unnamed-character-style-10 {
+  font-family: var(--unnamed-font-family-muli);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-800);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2a2e31);
+  }

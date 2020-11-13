@@ -50,27 +50,27 @@ const HeaderCarousel = () => {
     }
 
     const setDot = (n) => {
-        refDot1.current.style.background = 'gray';
-        refDot2.current.style.background = 'gray';
-        refDot3.current.style.background = 'gray';
+        refDot1.current.style.opacity = '0.3';
+        refDot2.current.style.opacity = '0.3';
+        refDot3.current.style.opacity = '0.3';
         switch (n) {
             case 0:
-                refDot3.current.style.background = 'white';
+                refDot3.current.style.opacity = '1';
                 break;
             case 1:
-                refDot1.current.style.background = 'white';
+                refDot1.current.style.opacity = '1';
                 count = 1;
                 break;
             case 2:
-                refDot2.current.style.background = 'white';
+                refDot2.current.style.opacity = '1';
                 count = 2;
                 break;
             case 3:
-                refDot3.current.style.background = 'white';
+                refDot3.current.style.opacity = '1';
                 count = 3;
                 break;
             case 4:
-                refDot1.current.style.background = 'white';
+                refDot1.current.style.opacity = '1';
                 break;
         }
         sliderRef.current.style.transition = 'ease all 0.3s';

@@ -12,6 +12,7 @@
 
 .container {
     position: relative;
+    
 }
 
 .chevronLeft {
@@ -37,8 +38,12 @@
 .slickDot {
     height: 10px;
     width: 10px;
-    background: red;
+    background: white;
     border-radius: 50%;
+}
+
+.slickDot:nth-child(2),.slickDot:nth-child(3) {
+    opacity: 0.3;
 }
 
 .slickContainer {
